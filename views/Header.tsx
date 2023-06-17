@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="pt-[34px] px-4 bg-main">
       <div>
-        <p className='text-[32px] text-white'>Hi, I'm <span className="text-pink">Daniel De Avila</span>. A guy passionate about <span className="text-pink">web development</span> and technology</p>
+        <p className='text-[32px] text-white'>Hi, I'm <span className="text-pink">Daniel De Avila</span>. A guy passionate about <span className="text-pink">frontend development</span> and technology</p>
       </div>
       <div className="pt-[25px]">
         <p className="text-base text-gray">I have 1 year of work experience. My main focus is the creation of user experiences using libraries and programming languages such as TypeScript, JavaScript, Next js, React js, React query, HTML5, CSS, Tailwind and the entire JavaScript environment.</p>
@@ -21,7 +21,7 @@ const Header = () => {
       </div>
 
       <div className="py-2 pl-2 border-[1px] border-white flex gap-2 items-center">
-        <div className="w-4 h-4 bg-green-600"></div>
+        <div className="w-4 h-4 bg-[#5CFA4C]"></div>
         <p className="text-white">currently available to join work</p>
       </div>
     </header>

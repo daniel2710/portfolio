@@ -4,6 +4,7 @@ const FiraCode = Fira_Code({ subsets: ['latin'], weight: ['400', '500', '700'] }
 import Topbar from '@/components/navigation/Topbar'
 import Header from './Header';
 import Particles from '@/components/Particles';
+import Projects from './Projects';
 import Skills from './Skills';
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
     <div className={`${FiraCode.className}`}>
       <Topbar/>
       <Header/>
+      <Projects/>
       <Skills/>
       <Particles/>
     </div>
