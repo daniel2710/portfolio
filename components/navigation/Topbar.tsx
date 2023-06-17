@@ -7,10 +7,10 @@ const Topbar = () => {
     const [ showNav, setShowNav ] = useState(false)
 
     return (
-        <nav className='bg-main relative'>
+        <nav className='bg-main relative z-[100]'>
             <div className='flex justify-between p-4'>
                 <div>
-                    <p className='text-base text-white'>Daniel De Ávila</p>
+                    <p className='text-base text-white'>Daniel De Avila</p>
                 </div>
                 <div>
                     { showNav ? <AiOutlineClose onClick={()=>setShowNav(false)} className='h-6 w-6 text-white' /> :
