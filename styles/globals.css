@@ -7,3 +7,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.rotateImg {
+    animation: rotar 20s infinite linear;
+}
+  
+@keyframes rotar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
