@@ -6,6 +6,7 @@ import Header from './Header';
 import Particles from '@/components/Particles';
 import Projects from './Projects';
 import Skills from './Skills';
+import About from './About';
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Header/>
       <Projects/>
       <Skills/>
+      <About/>
       <Particles/>
     </div>
   )
