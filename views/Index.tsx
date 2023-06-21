@@ -9,6 +9,7 @@ import Skills from './Skills';
 import About from './About';
 import Contact from './Contact';
 import Work from './Work';
+import References from './References';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Projects/>
       <Skills/>
       <Work/>
+      <References/>
       <About/>
       <Contact/>
       <Particles/>
