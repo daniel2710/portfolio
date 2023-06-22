@@ -1,10 +1,25 @@
 import React, { useState } from 'react';
 import { RiMenu4Line } from 'react-icons/ri';
 import { AiFillGithub, AiFillLinkedin, AiOutlineClose, AiOutlineWhatsApp } from 'react-icons/ai';
-import { navigation } from '@/data/navigation';
+import { navigation } from '@/data/navigation';  
 
 const Topbar = () => {
     const [ showNav, setShowNav ] = useState(false)
+
+    const navigationFc = (section: string = 'home', offsetOp: number = 30) =>{
+        setShowNav(false)
+        const element = document.getElementById(section);
+        if (element) {
+            const offset = -offsetOp;
+            const rect = element.getBoundingClientRect();
+            const scrollPosition = rect.top + window.pageYOffset + offset;
+        
+            window.scrollTo({
+              top: scrollPosition,
+              behavior: 'smooth',
+            });
+        }
+    }
 
     return (
         <nav className='bg-main z-[100] sticky top-0'>
@@ -22,7 +37,7 @@ const Topbar = () => {
             { showNav && <div className='absolute w-full flex justify-between flex-col h-[calc(100vh-56px)] bg-main pt-[47px] pl-4 pb-16'>
                 <ul className='flex items-start gap-8 flex-col'>
                     { navigation.map((item, idx: number)=>(
-                        <li key={idx} className='text-[32px] text-gray'><span className='text-pink mr-1'>#</span>{item.title}</li>
+                        <li onClick={()=>navigationFc(item.title, 30)} key={idx} className='text-[32px] text-gray'><span className='text-pink mr-1'>#</span>{item.title}</li>
                     ))}
                 </ul>
                 <div className='flex gap-5 justify-center items-center text-gray'>

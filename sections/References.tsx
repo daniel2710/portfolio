@@ -1,14 +1,12 @@
 import Image from 'next/image';
 import Line from '../public/img/line_pink.svg';
-import ScrollContainer from "react-indiana-drag-scroll";
 import { references } from '@/data/references';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { FaLongArrowAltRight } from 'react-icons/fa';
 
 const References = () => {
 
     return (
-        <section className='pt-[34px] px-4 bg-main'>
+        <section id='References' className='pt-[34px] px-4 bg-main'>
             <div className='flex gap-2'>
                 <h2 className='text-white text-2xl'><span className='text-pink'>#</span>References</h2>
                 <Image className='w-[50%]' src={Line} alt='Line' />

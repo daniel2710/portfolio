@@ -4,7 +4,7 @@ import { works } from '@/data/work';
 
 const Work = () => {
   return (
-    <section className='pt-[34px] px-4 bg-main'>
+    <section id='Work-experience' className='pt-[34px] px-4 bg-main'>
         <div className='flex gap-2'>
             <h2 className='text-white text-2xl'><span className='text-pink'>#</span>Work experience</h2>
             <Image className='w-[30%]' src={Line} alt='Line' />
