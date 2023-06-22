@@ -22,8 +22,8 @@ const Projects = () => {
                         <h2 className='text-2xl text-white'>{item.name}</h2>
                         <p>{item.description}</p>
                         <div className='flex gap-2'>
-                            <a className='p-1 text-center border-[1px] border-gray' href={item.demo}>Demo</a>
-                            <a className='p-1 text-center border-[1px] border-gray' href={item.code}>Code</a>
+                            <a className='p-1 text-center border-[1px] border-gray' href={item.demo} target='_blank'>Demo</a>
+                            <a className='p-1 text-center border-[1px] border-gray' href={item.code} target='_blank'>Code</a>
                         </div>
                     </div>
                 </div>

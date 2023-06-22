@@ -1,15 +1,15 @@
-import React from 'react'
 import { Fira_Code } from 'next/font/google'
 const FiraCode = Fira_Code({ subsets: ['latin'], weight: ['400', '500', '700'] });
 import Topbar from '@/components/navigation/Topbar'
-import Header from './Header';
+import Header from '../sections/Header';
 import Particles from '@/components/Particles';
-import Projects from './Projects';
-import Skills from './Skills';
-import About from './About';
-import Contact from './Contact';
-import Work from './Work';
-import References from './References';
+import Projects from '../sections/Projects';
+import Skills from '../sections/Skills';
+import About from '../sections/About';
+import Contact from '../sections/Contact';
+import Work from '../sections/Work';
+import References from '../sections/References';
+import Footer from '@/sections/Footer';
 
 const Index = () => {
   return (
@@ -22,6 +22,7 @@ const Index = () => {
       <References/>
       <About/>
       <Contact/>
+      <Footer/>
       <Particles/>
     </div>
   )

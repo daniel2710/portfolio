@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { RiMenu4Line } from 'react-icons/ri';
-import { AiFillGithub, AiFillTwitterCircle, AiOutlineClose, AiOutlineWhatsApp } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiOutlineClose, AiOutlineWhatsApp } from 'react-icons/ai';
 import { navigation } from '@/data/navigation';
 
 const Topbar = () => {
     const [ showNav, setShowNav ] = useState(false)
 
     return (
-        <nav className='bg-main relative z-[100]'>
+        <nav className='bg-main z-[100] sticky top-0'>
             <div className='flex justify-between p-4'>
                 <div>
-                    <p className='text-base text-white'>Daniel De Avila</p>
+                    <p className='text-base text-white'>Daniel De Avila - portfolio</p>
                 </div>
                 <div>
                     { showNav ? <AiOutlineClose onClick={()=>setShowNav(false)} className='h-6 w-6 text-white' /> :
@@ -26,9 +26,15 @@ const Topbar = () => {
                     ))}
                 </ul>
                 <div className='flex gap-5 justify-center items-center text-gray'>
-                    <AiFillGithub className='h-10 w-10' />
-                    <AiOutlineWhatsApp className='h-10 w-10' />
-                    <AiFillTwitterCircle className='h-10 w-10' />
+                    <a href='https://github.com/daniel2710' target='_blank'>
+                        <AiFillGithub className='h-10 w-10' />
+                    </a>
+                    <a href='https://api.whatsapp.com/send?phone=+573244933254&text=Hello' target='_blank'>
+                        <AiOutlineWhatsApp className='h-10 w-10' />
+                    </a>
+                    <a href='https://www.linkedin.com/in/daniel-de-avila' target='_blank'>
+                        <AiFillLinkedin className='w-10 h-10' />
+                    </a>
                 </div>
             </div>}
 
