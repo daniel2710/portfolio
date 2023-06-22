@@ -1,18 +1,20 @@
 export const navigation = [
     {
-        id: 1,
         title: 'Home'
     },
     {
-        id: 2,
+        title: 'Projects'
+    }, 
+    {
         title: 'Works'
     }, 
     {
-        id: 3,
+        title: 'References'
+    }, 
+    {
         title: 'About-me'
     }, 
     {
-        id: 4,
         title: 'Contacts'
     }
 ]

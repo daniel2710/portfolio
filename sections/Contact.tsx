@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className='flex flex-col gap-6 mt-2 border-[1px] border-gray text-gray'>
             <div className='flex flex-col gap-2 pb-2'>
-                <div className='pl-3 flex flex-col gap-4'>
+                <div className='pl-3 mt-3 flex flex-col gap-4'>
                     <p className='text-xl text-white text-center'>Contact me</p>
                     <div className='flex gap-2 flex-col'>
                         <a href='mailto:daniel2710es@gmail.com' target='_blank' className='flex gap-2 items-center'>
