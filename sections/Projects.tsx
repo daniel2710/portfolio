@@ -4,7 +4,7 @@ import { projects } from '@/data/projects';
 
 const Projects = () => {
   return (
-    <section className='pt-[34px] px-4 bg-main'>
+    <section id='Projects' className='pt-[34px] px-4 bg-main'>
         <div className='flex gap-2'>
             <h2 className='text-white text-2xl'><span className='text-pink'>#</span>Projects</h2>
             <Image className='w-[50%]' src={Line} alt='Line' />
