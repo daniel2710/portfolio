@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Fira_Code } from 'next/font/google'
 const FiraCode = Fira_Code({ subsets: ['latin'], weight: ['400', '500', '700'] });
 import Topbar from '@/components/navigation/Topbar'
@@ -15,6 +16,9 @@ import TopbarDesktop from '@/components/navigation/desktop/TopbarDesktop';
 const Index = () => {
   return (
     <div className={`${FiraCode.className}`}>
+      <Head>
+        <title>Daniel de Avila - Portfolio Frontend Developer</title>
+      </Head>
       <Topbar/>
       <TopbarDesktop/>
       <Header/>
