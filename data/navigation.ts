@@ -6,7 +6,10 @@ export const navigation = [
         title: 'Projects'
     }, 
     {
-        title: 'Works'
+        title: 'Skills'
+    }, 
+    {
+        title: 'Work-experience'
     }, 
     {
         title: 'References'
@@ -15,6 +18,6 @@ export const navigation = [
         title: 'About-me'
     }, 
     {
-        title: 'Contacts'
+        title: 'Contact'
     }
 ]

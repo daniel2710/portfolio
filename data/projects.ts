@@ -1,19 +1,11 @@
 export const projects = [
     {
-        image: '/../public/img/projects/crud.png',
-        technologies: 'Css Html Javascript',
-        name: 'Project 1',
-        description: 'A frontend project',
-        code: 'https://github.com/daniel2710',
-        demo: 'https://github.com/daniel2710'
-    },
-    {
-        image: '/../public/img/projects/crud.png',
-        technologies: 'Css Html Javascript',
-        name: 'Project 1',
-        description: 'A frontend project',
-        code: 'https://github.com/daniel2710',
-        demo: 'https://github.com/daniel2710'
+        image: '/../public/img/projects/tmt.png',
+        technologies: '*Private*',
+        name: 'Tmt Academy',
+        description: 'Participate in tmt academy as a frontend developer for peacedev team company, it is a trading course app with landing page',
+        code: '',
+        demo: 'https://tmtacademy.co/'
     },
     {
         image: '/../public/img/projects/pixabay.png',

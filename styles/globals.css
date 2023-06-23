@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .rotateImg {
-    animation: rotar 20s infinite linear;
+  animation: rotate 20s infinite linear;
 }
   
-@keyframes rotar {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
