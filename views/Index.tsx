@@ -18,6 +18,7 @@ const Index = () => {
     <div className={`${FiraCode.className}`}>
       <Head>
         <title>Daniel de Avila - Portfolio Frontend Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Topbar/>
       <TopbarDesktop/>
