@@ -33,8 +33,13 @@ const Header = () => {
             <div className="pt-[25px]">
               <p className="text-base text-gray">I have 1 year of work experience. My main focus is the creation of user experiences using libraries and programming languages such as TypeScript, JavaScript, Next js, React js, React query, HTML5, CSS, Tailwind and the entire JavaScript environment.</p>
             </div>
-            <div className="hidden xl:block mt-5 border border-pink hover:bg-pink transition-all duration-300 w-fit py-2 px-3 cursor-pointer">
-              <a href="https://www.linkedin.com/in/daniel-de-avila" target="_blank" className="text-center text-white">Contact me</a>
+            <div className="flex gap-3 mt-5">
+              <div className="border border-pink hover:bg-pink transition-all duration-300 w-fit py-2 px-3 cursor-pointer">
+                <a href="/pdf/cv.pdf" target="_blank" className="text-center text-white">Download cv</a>
+              </div>
+              <div className="border border-pink hover:bg-pink transition-all duration-300 w-fit py-2 px-3 cursor-pointer">
+                <a href="https://www.linkedin.com/in/daniel-de-avila" target="_blank" className="text-center text-white">Contact me</a>
+              </div>
             </div>
           </div>
 

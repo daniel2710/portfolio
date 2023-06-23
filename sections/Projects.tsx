@@ -6,10 +6,10 @@ import { projects } from '@/data/projects';
 const Projects = () => {
   return (
     <section id='Projects' className='pt-[34px] relative bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
-        <div className='absolute right-0'>
+        <div className='hidden xl:block absolute right-0'>
             <Image src={rectangle} alt='rectangle' />
         </div>
-        <div className='absolute right-0 top-[400px]'>
+        <div className='hidden xl:block absolute right-0 top-[400px]'>
             <Image id='color-changin' src={rectangle} alt='rectangle' />
         </div>
         <div className='flex gap-2'>
@@ -29,7 +29,7 @@ const Projects = () => {
                         <h2 className='text-2xl text-white'>{item.name}</h2>
                         <p>{item.description}</p>
                         <div className='flex gap-2'>
-                            <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.demo} target='_blank'>Demo</a>
+                            <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.demo} target='_blank'>Live</a>
                             { item.code && <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.code} target='_blank'>Code</a>}
                         </div>
                     </div>
