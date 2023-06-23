@@ -8,7 +8,7 @@ export const references = [
     //     ig: 'https://instagram.com/jaisir.bayuelo?igshid=MWQ1ZGUxMzBkMA==',
     // },
     {
-        profile: '/img/references/jahaziel.jpeg',
+        profile: '/jahaziel.jpeg',
         name: 'Jahaziel hernandez',
         ocupation: 'Backend Developer',
         message: '"It is a pleasure working with Daniel. During our time together, I have had the opportunity to witness his incredible ability to quickly layout. His ability to translate designs into functional and attractive interfaces is impressive. One of its most notable strengths is its ability to create a well-organized and semantic HTML and CSS structure. His in-depth knowledge of web development best practices is reflected in the clean and efficient code he produces. Additionally, his focus on accessibility and performance optimization demonstrate his commitment to creating high-quality user experiences."',
