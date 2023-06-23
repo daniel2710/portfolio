@@ -10,11 +10,13 @@ import Contact from '../sections/Contact';
 import Work from '../sections/Work';
 import References from '../sections/References';
 import Footer from '@/sections/Footer';
+import TopbarDesktop from '@/components/navigation/desktop/TopbarDesktop';
 
 const Index = () => {
   return (
     <div className={`${FiraCode.className}`}>
       <Topbar/>
+      <TopbarDesktop/>
       <Header/>
       <Projects/>
       <Skills/>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { RiMenu4Line } from 'react-icons/ri';
 import { AiFillGithub, AiFillLinkedin, AiOutlineClose, AiOutlineWhatsApp } from 'react-icons/ai';
 import { navigation } from '@/data/navigation';  
@@ -22,7 +22,7 @@ const Topbar = () => {
     }
 
     return (
-        <nav className='bg-main z-[100] sticky top-0'>
+        <nav className='lg:hidden bg-main z-[100] sticky top-0'>
             <div className='flex justify-between p-4'>
                 <div>
                     <p className='text-base text-white'>Daniel De Avila - portfolio</p>
