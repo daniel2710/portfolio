@@ -20,7 +20,7 @@ const Projects = () => {
             { projects.map((item, idx)=>(  
                 <div key={idx} className='flex flex-col md:w-[380px] xl:justify-center gap-2 pb-2 border-[1px] border-gray text-gray'>
                     <div className='w-full h-full'>
-                        <Image className='w-full h-full' src={item.image} alt={item.image} height={200} width={200} />
+                        <Image className='w-full h-full' priority src={item.image} alt={item.image} height={200} width={200} />
                     </div>
                     <div className='pl-1 border-b-[1px] border-gray'>
                         <p className='text-base'>{item.technologies}</p>
