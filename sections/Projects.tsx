@@ -20,7 +20,7 @@ const Projects = () => {
             { projects.map((item, idx)=>(  
                 <div key={idx} className='flex flex-col md:w-[380px] xl:justify-center gap-2 pb-2 border-[1px] border-gray text-gray'>
                     <div className='w-full h-full'>
-                        <Image className='w-full h-full' priority src={item.image} alt='crud' height={200} width={200} />
+                        <Image className='w-full h-full' src={item.image} alt='crud' height={200} width={200} />
                     </div>
                     <div className='pl-1 border-b-[1px] border-gray'>
                         <p className='text-base'>{item.technologies}</p>
@@ -30,7 +30,7 @@ const Projects = () => {
                         <p>{item.description}</p>
                         <div className='flex gap-2'>
                             <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.demo} target='_blank'>Demo</a>
-                            <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.code} target='_blank'>Code</a>
+                            { item.code && <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.code} target='_blank'>Code</a>}
                         </div>
                     </div>
                 </div>

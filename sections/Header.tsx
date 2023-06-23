@@ -10,7 +10,6 @@ import line from '../public/icons/line.svg';
 const Header = () => {
   return (
       <header id="Home" className="pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36 relative">
-
         <div className='hidden xl:flex absolute left-5 top-[-100px] flex-col justify-center items-center'>
           <Image className='h-full z-[500]' src={line} alt='line' />
           <div className='flex flex-col mt-1 gap-3 justify-center items-center'>
@@ -35,7 +34,7 @@ const Header = () => {
               <p className="text-base text-gray">I have 1 year of work experience. My main focus is the creation of user experiences using libraries and programming languages such as TypeScript, JavaScript, Next js, React js, React query, HTML5, CSS, Tailwind and the entire JavaScript environment.</p>
             </div>
             <div className="hidden xl:block mt-5 border border-pink hover:bg-pink transition-all duration-300 w-fit py-2 px-3 cursor-pointer">
-              <a className="text-center text-white">Contact me</a>
+              <a href="https://www.linkedin.com/in/daniel-de-avila" target="_blank" className="text-center text-white">Contact me</a>
             </div>
           </div>
 
@@ -49,7 +48,7 @@ const Header = () => {
 
             <div className="py-2 pl-2 border-[1px] border-white flex justify-center gap-2 items-center">
               <div className="w-4 h-4 bg-[#5CFA4C]"></div>
-              <p className="text-white">currently available to join work</p>
+              <p className="text-white">currently available to join your workgroup</p>
             </div>
           </div>
         </div>
