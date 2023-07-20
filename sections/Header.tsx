@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             <div className="flex gap-3 mt-5">
               <div className="border border-pink hover:bg-pink transition-all duration-300 w-fit py-2 px-3 cursor-pointer">
-                <a href="/pdf/cv.pdf" target="_blank" className="text-center text-white">Download cv</a>
+                <a href="/pdf/Daniel De Avila - CV.pdf" target="_blank" className="text-center text-white">Download cv</a>
               </div>
               <div className="border border-pink hover:bg-pink transition-all duration-300 w-fit py-2 px-3 cursor-pointer">
                 <a href="https://www.linkedin.com/in/daniel-de-avila" target="_blank" className="text-center text-white">Contact me</a>

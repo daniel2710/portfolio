@@ -17,7 +17,18 @@ export const skills = [
                 name: 'Next.js',
             },
             {
+                name: 'Node.js',
+            },
+            {
                 name: 'React.js',
+            }
+        ]
+    },
+    {
+        title: 'Databases',
+        content: [
+            {
+                name: 'MongoDB',
             }
         ]
     },
@@ -36,7 +47,7 @@ export const skills = [
         ]
     },
     {
-        title: 'Styles and structure',
+        title: 'Styles and HTML structure',
         content: [
             {
                 name: 'Html',
@@ -63,6 +74,9 @@ export const skills = [
             },
             {
                 name: 'Github',
+            },
+            {
+                name: 'GitLab',
             },
             {
                 name: 'VS Code',
