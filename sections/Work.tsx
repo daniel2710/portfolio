@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <section id='Work-experience' className='pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
         <div className='flex gap-2'>
-            <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Work experience</h2>
+            <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Work experience    (1 year)</h2>
             <Image className='w-[30%]' src={Line} alt='Line' />
         </div>
         <div className='mt-[34px] flex flex-col xl:w-[50%]'>
@@ -19,8 +19,8 @@ const Work = () => {
                         <div className='absolute h-[calc(100%-50px)] left-[50%] border-l-2 border-pink'></div>
                     </div>
                     <div className='flex flex-col gap-1'>
-                        <h3 className='text-white text-xl'>{item.position}</h3>
-                        <h4 className='text-pink text-base'>{item.name}</h4>
+                        <h3 className='text-white text-xl'>{item.name}</h3>
+                        <h4 className='text-pink text-base'>{item.position}</h4>
                         <p className='text-gray text-sm mb-7'>{item.description}</p>
                     </div>
                 </div>

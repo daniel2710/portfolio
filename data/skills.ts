@@ -25,14 +25,6 @@ export const skills = [
         ]
     },
     {
-        title: 'Databases',
-        content: [
-            {
-                name: 'MongoDB',
-            }
-        ]
-    },
-    {
         title: 'Librarys and others',
         content: [
             {
@@ -43,6 +35,9 @@ export const skills = [
             },
             {
                 name: 'Context api',
+            },
+            {
+                name: 'Formik'
             }
         ]
     },
@@ -63,6 +58,14 @@ export const skills = [
             },
             {
                 name: 'DaisyUI',
+            }
+        ]
+    },
+    {
+        title: 'Databases',
+        content: [
+            {
+                name: 'MongoDB',
             }
         ]
     },
