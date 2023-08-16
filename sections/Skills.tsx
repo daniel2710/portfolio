@@ -21,7 +21,7 @@ const Skills = () => {
             </div>
             <div className='flex flex-row flex-wrap justify-center gap-6 mt-[34px]'>
                 { skills.map((item, idx)=>(
-                    <div key={idx} className='flex flex-col gap-2 pb-2 xl:h-fit border-[1px] border-gray text-gray'>
+                    <div key={idx} className='flex flex-col h-fit gap-2 pb-2 xl:h-fit border-[1px] border-gray text-gray'>
                         <div className='text-center px-3 py-2 border-b-[1px] border-gray'>
                             <h2 className='text-2xl text-white'>{item.title}</h2>
                         </div>
