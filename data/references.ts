@@ -11,7 +11,7 @@ export const references = [
         profile: '/jahaziel.jpeg',
         name: 'Jahaziel hernandez',
         ocupation: 'Backend Developer',
-        message: '"It is a pleasure working with Daniel. During our time together, I have had the opportunity to witness his incredible ability to quickly layout. His ability to translate designs into functional and attractive interfaces is impressive. One of its most notable strengths is its ability to create a well-organized and semantic HTML and CSS structure. His in-depth knowledge of web development best practices is reflected in the clean and efficient code he produces. Additionally, his focus on accessibility and performance optimization demonstrate his commitment to creating high-quality user experiences."',
+        message: '"Es un placer trabajar con Daniel. Durante el tiempo que pasamos juntos, tuve la oportunidad de presenciar su increíble habilidad para diseñar rápidamente. Su capacidad para traducir diseños en interfaces funcionales y atractivas es impresionante. Una de sus fortalezas más notables es su capacidad para crear una estructura HTML y CSS semántica y bien organizada. Su profundo conocimiento de las mejores prácticas de desarrollo web se refleja en el código limpio y eficiente que produce. Además, su enfoque en la accesibilidad y la optimización del rendimiento demuestran su compromiso con la creación de experiencias de usuario de alta calidad."',
         linkdin: 'https://www.linkedin.com/in/jahaziel-anthony-h-6586b5139/',
         github: 'https://github.com/jahazielhernandezhoyos',
         ig: null

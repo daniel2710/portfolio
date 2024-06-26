@@ -2,13 +2,13 @@ export const works = [
     {
         logo: '/peacedev.png',
         position: 'Frontend Developer',
-        name: 'PEACEDEV TEAM SAS',
-        description: "My main role was to create and design attractive and functional user interfaces. My focus was on translating designs and concepts to develop interfaces that met the project's requirements. During my work, I used my technical skills and knowledge in web development to implement client-side logic. This involved writing and optimizing JavaScript code to handle user interaction, validate forms, make API calls, and handle real-time events."
+        name: 'PEACEDEV TEAM SAS (8 meses)',
+        description: "Mi función principal fue crear y diseñar interfaces de usuario atractivas y funcionales. Mi enfoque fue traducir diseños y conceptos para desarrollar interfaces que cumplieran con los requisitos del proyecto. Durante mi trabajo, utilicé mis habilidades técnicas y conocimientos en desarrollo web para implementar la lógica del lado del cliente. Esto implicó escribir y optimizar código JavaScript para manejar la interacción del usuario, validar formularios, consultar APIs, incorporar seguridad web y manejar eventos en tiempo real."
     },
     {
         logo: '/logo-conteo.png',
         position: 'Frontend Developer',
-        name: 'CONTEO SOFTWARE (Freelance)',
-        description: 'My main role was to restructure and create a new client-side version of an accounting software called count using technologies like Next.js along with React.js and Redux.',
+        name: 'CONTEO SOFTWARE (Freelance, 1 año)',
+        description: 'Mi función principal fue reestructurar y crear una nueva versión del lado del cliente de un software de contabilidad llamado conteo utilizando tecnologías como Next.js junto con React.js y Redux. También trabajé desde 0 en un ecommerce web que se encuentra en su etapa final de desarrollo',
     },
 ]

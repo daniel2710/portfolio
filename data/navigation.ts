@@ -1,23 +1,30 @@
 export const navigation = [
     {
-        title: 'Home'
+        title: 'Inicio',
+        navigation: 'Home',
     },
     {
-        title: 'Projects'
+        title: 'Proyectos',
+        navigation: 'Projects',
     }, 
     {
-        title: 'Skills'
+        title: 'Habilidades',
+        navigation: 'Skills',
     }, 
     {
-        title: 'Work-experience'
+        title: 'Experiencia',
+        navigation: 'Work-experience',
     }, 
     {
-        title: 'References'
+        title: 'Referencias',
+        navigation: 'References',
     }, 
     {
-        title: 'About-me'
+        title: 'Acerca de mí',
+        navigation: 'About-me',
     }, 
     {
-        title: 'Contact'
+        title: 'Contacto',
+        navigation: 'Contact',
     }
 ]

@@ -5,11 +5,11 @@ const About = () => {
   return (
     <section id='About-me' className='pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
         <div className='flex gap-2'>
-            <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>About-me</h2>
+            <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Conóceme</h2>
             <Image className='w-[50%]' src={Line} alt='Line' />
         </div>
         <div className='mt-[34px]'>
-            <p className='text-gray text-base'>I live in Barranquilla, Colombia, I am 19 years old and in addition to my technical experience, I consider myself a collaborative person, with a positive attitude and good communication skills. I enjoy working in a team, sharing knowledge and learning from others. I am adaptable, I like to face new challenges and I am constantly learning and improving my skills to keep abreast of the latest trends and technologies in frontend development.</p>
+            <p className='text-gray text-base'>Vivo en Colombia, tengo 20 años y además de mi experiencia técnica, me considero una persona colaboradora, con actitud positiva y buena capacidad de comunicación. Disfruto trabajar en equipo, compartir conocimientos y aprender de los demás. Soy adaptable, me gusta afrontar nuevos retos y estoy constantemente aprendiendo y mejorando mis habilidades para mantenerme al tanto de las últimas tendencias y tecnologías en desarrollo web. Me encanta jugar al futbol, ver pelis, escuchar música y el deporte en general.</p>
         </div>
     </section>
   )
