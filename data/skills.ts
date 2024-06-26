@@ -1,6 +1,6 @@
 export const skills = [
     {
-        title: 'Languajes',
+        title: 'Lenguajes',
         content: [
             {
                 name: 'Typescript',
@@ -25,7 +25,7 @@ export const skills = [
         ]
     },
     {
-        title: 'Librarys and others',
+        title: 'Librerias y otros',
         content: [
             {
                 name: 'React Query',
@@ -42,7 +42,7 @@ export const skills = [
         ]
     },
     {
-        title: 'Styles and HTML structure',
+        title: 'Estilos y estructura HTML',
         content: [
             {
                 name: 'Html',
@@ -62,7 +62,7 @@ export const skills = [
         ]
     },
     {
-        title: 'Databases',
+        title: 'Bases de datos',
         content: [
             {
                 name: 'MongoDB',
@@ -70,7 +70,7 @@ export const skills = [
         ]
     },
     {
-        title: 'Tools',
+        title: 'Herramientas',
         content: [
             {
                 name: 'Git',

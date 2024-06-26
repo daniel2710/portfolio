@@ -8,7 +8,7 @@ const References = () => {
     return (
         <section id='References' className='pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
             <div className='flex gap-2'>
-                <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>References</h2>
+                <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Referencias laborales</h2>
                 <Image className='w-[50%]' src={Line} alt='Line' />
             </div>
             <div className='mt-[34px] pb-3 flex justify-center'>

@@ -13,7 +13,7 @@ const Projects = () => {
             <Image id='color-changin' src={rectangle} alt='rectangle' />
         </div>
         <div className='flex gap-2'>
-            <h2 className='text-white text-2xl 2xl:text-4xl'><span className='text-pink'>#</span>Projects</h2>
+            <h2 className='text-white text-2xl 2xl:text-4xl'><span className='text-pink'>#</span>Proyectos</h2>
             <Image className='w-[50%]' src={Line} alt='Line' />
         </div>  
         <div className='flex flex-col justify-center xl:justify-start gap-6 mt-[34px] md:flex-row md:flex-wrap'>
@@ -25,12 +25,24 @@ const Projects = () => {
                     <div className='pl-1 border-b-[1px] border-gray'>
                         <p className='text-base'>{item.technologies}</p>
                     </div>
-                    <div className='pl-3 flex flex-col gap-4 pb-2'>
+                    <div className='px-2 flex flex-col gap-4 pb-2'>
                         <h2 className='text-2xl text-white'>{item.name}</h2>
                         <p>{item.description}</p>
                         <div className='flex gap-2'>
-                            <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.demo} target='_blank'>Live</a>
-                            { item.code && <a className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.code} target='_blank'>Code</a>}
+                            <a
+                                className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300'
+                                href={item.demo} target='_blank'
+                            >
+                                Ver
+                            </a>
+                            { item.code && (
+                                <a
+                                    className='p-1 text-center border-[1px] border-gray hover:text-white hover:bg-pink transition-all duration-300' href={item.code}
+                                    target='_blank'
+                                >
+                                    Código
+                                </a>
+                            )}
                         </div>
                     </div>
                 </div>
