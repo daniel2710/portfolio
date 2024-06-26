@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section id='Skills' className='pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
         <div className='flex gap-2'>
-            <h2 className='text-white text-2xl 2xl:text-4xl'><span className='text-pink'>#</span>Skills</h2>
+            <h2 className='text-white text-2xl 2xl:text-4xl'><span className='text-pink'>#</span>Habilidades</h2>
             <Image className='w-[50%]' src={Line} alt='Line' />
         </div>
         <div className='flex gap-2'>
