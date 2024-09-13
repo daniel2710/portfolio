@@ -27,8 +27,10 @@ const Index = () => {
       <Skills/>
       <Work/>
       <References/>
-      <About/>
-      <Contact/>
+      <div className='flex flex-col md:flex-row'>
+        <About/>
+        <Contact/>
+      </div>
       <Footer/>
       <Particles/>
     </div>
