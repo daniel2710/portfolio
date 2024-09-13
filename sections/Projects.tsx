@@ -16,11 +16,18 @@ const Projects = () => {
             <h2 className='text-white text-2xl 2xl:text-4xl'><span className='text-pink'>#</span>Proyectos</h2>
             <Image className='w-[50%]' src={Line} alt='Line' />
         </div>  
-        <div className='flex flex-col justify-center xl:justify-start gap-6 mt-[34px] md:flex-row md:flex-wrap'>
+        <div className='flex flex-col justify-center xl:justify-start gap-6 mt-[34px] sm:flex-row sm:flex-wrap'>
             { projects.map((item, idx)=>(  
-                <div key={idx} className='flex flex-col md:w-[380px] xl:justify-start gap-2 pb-2 border-[1px] border-gray text-gray'>
-                    <div className='w-[378px] h-[180px]'>
-                        <Image className='w-full h-full' priority src={item.image} alt={item.image} height={200} width={200} />
+                <div key={idx} className='flex flex-col sm:w-[380px] xl:justify-start gap-2 pb-2 border-[1px] border-gray text-gray'>
+                    <div className='w-full sm:max-w-[378px] h-[180px] flex justify-center items-center'>
+                        <Image
+                            className='w-full h-full'
+                            priority
+                            src={item.image}
+                            alt={item.image}
+                            height={200}
+                            width={200}
+                        />
                     </div>
                     <div className='pl-1 border-b-[1px] border-gray'>
                         <p className='text-base'>{item.technologies}</p>

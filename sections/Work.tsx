@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <section id='Work-experience' className='pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
         <div className='flex gap-2'>
-            <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Experiencia laboral (1 año y 8 meses)</h2>
+            <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Experiencia laboral (2 años)</h2>
             <Image className='w-[30%]' src={Line} alt='Line' />
         </div>
         <div className='mt-[34px] flex flex-col xl:w-[50%]'>

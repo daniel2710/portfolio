@@ -4,16 +4,16 @@ import { AiFillLinkedin, AiOutlineMail, AiOutlineWhatsApp, AiFillGithub } from '
 
 const Contact = () => {
   return (
-    <section id='Contact' className='pt-[34px] bg-main px-4 py-4 xl:pl-36 xl:pr-36'>
+    <section id='Contact' className='pt-[34px] bg-main px-4 py-4 2xl:pr-36 '>
         <div className='flex gap-2'>
             <h2 className='text-white text-2xl xl:text-4xl'><span className='text-pink'>#</span>Contact</h2>
             <Image className='w-[50%]' src={Line} alt='Line' />
         </div>
-        <div className='mt-[34px]'>
+        <div className='mt-[34px]  max-w-[1000px]'>
             <p className='text-gray text-base'>Estoy interesado en formar parte de un equipo de trabajo, si quieres contactarme puedes hacerlo a través de las diferentes opciones que te dejaré a continuación.</p>
         </div>
 
-        <div className='flex flex-col gap-6 mt-2 border-[1px] border-gray text-gray'>
+        <div className='flex flex-col gap-6 mt-2 border-[1px] border-gray text-gray  max-w-[1000px]'>
             <div className='flex flex-col gap-2 pb-2'>
                 <div className='pl-3 mt-3 flex flex-col gap-4'>
                     <p className='text-xl text-white text-center'>Contáctame</p>

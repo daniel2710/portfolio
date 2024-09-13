@@ -11,7 +11,7 @@ export const projects = [
         image: '/tmt.png',
         technologies: '*Privado*',
         name: 'Tmt Academy',
-        description: 'Participe en tmt academy como desarrollador frontend para la empresa Peacedev Team, es una plataforma de cursos de trading con landing page e inicio de sesión.',
+        description: 'Participe en tmt academy como desarrollador frontend para la empresa Peacedev Team, es una plataforma de cursos de trading con landing page e inicio de sesión para entrar a un panel de administración y contenido.',
         code: '',
         demo: 'https://tmtacademy.co/'
     },
